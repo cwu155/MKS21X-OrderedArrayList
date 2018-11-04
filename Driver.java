@@ -42,7 +42,6 @@ public class Driver {
 			array.add("z");
 			array.add("x");
 			array.add("y");
-			System.out.println(array);
 			if (!(""+array).equals("[x, y, z]")) System.out.println(++c+". You aren't adding properly when OrderedArrayList.add(T) is called.");
 			array.add(2,"c");
 			array.add(1,"a");
